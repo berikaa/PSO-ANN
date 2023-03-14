@@ -5,8 +5,7 @@ PSO-ANN modeli ile deprem hasar tahmin modelinin oluşturulmuştur. Veri seti a�
 Veri setinden yapılması gereken temel ön işlem adımları:
   1. Eksik değerler bulunmaktadır bunlar tamamlanmalıdır.
   
-  ![image](https://user-images.githubusercontent.com/9701895/225011095-c8ffdf30-6ac0-4b64-bb5c-5e883e106c23.png)
-  
+  ![image](https://user-images.githubusercontent.com/9701895/225012260-b561df2c-8ffd-4342-be21-62f73bf5ea4b.png)  
   ![image](https://user-images.githubusercontent.com/9701895/225011134-ab8b2bb6-77a4-4f13-9e3b-0d54457c3a9e.png)
 
   2. Enterolasyon yöntemi ile verilerin tamamlanması gerçekleştirilebilir.
@@ -17,14 +16,13 @@ Veri setinden yapılması gereken temel ön işlem adımları:
   
   3.Veri setinde label encoder yönremi ile country region ve location name özellikleri etiketlenmelidir.
   
-  ![image](https://user-images.githubusercontent.com/9701895/225011571-bf7dd1a5-3b8b-4d10-b827-8fd95a34020f.png)
-
+  ![image](https://user-images.githubusercontent.com/9701895/225012374-3506b6b8-1b53-48a5-8050-eba20c80372e.png)
   ![image](https://user-images.githubusercontent.com/9701895/225011684-eb106010-4afb-4eca-a1a0-5d3b4ae5187b.png)
 
   4. Özellik seçimi sırasında aşağıdaki gibi korelasyon matrisi oluşturularak yüksek ilişkili özellikler veri setinden çıkartılabilir. 
-  ![image](https://user-images.githubusercontent.com/9701895/225011896-09ebbfc9-d03d-471d-95b1-e836b02b2fed.png)
-
-  ![image](https://user-images.githubusercontent.com/9701895/224981855-e03e9887-1fa6-4ea7-b5b1-f8e00cf5e5ba.png)
+![image](https://user-images.githubusercontent.com/9701895/225012183-731993d3-5a34-4e33-a5db-eab79ab83449.png)
+ 
+ ![image](https://user-images.githubusercontent.com/9701895/224981855-e03e9887-1fa6-4ea7-b5b1-f8e00cf5e5ba.png)
 
 
 Bu adımlar sayesinde modelin performans başarısı arttırılabilir.
